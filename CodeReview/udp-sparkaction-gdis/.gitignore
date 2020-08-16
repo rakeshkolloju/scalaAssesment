@@ -1,0 +1,31 @@
+*.sw*
+*.class
+*.log
+metastore_db/
+scratch*
+*.DS_Store
+
+# sbt specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Vagrant
+.vagrant
+.toDelete
+*.idea
+skuMart/src/main/resources/application.conf
+finatraRestApi/src/main/resources/application.conf
+gorillaGroddTesting/src/test/resources/local_hdfs/
+
+# self-service tests
+job-filter.txt
+cx.json
+gorillaGroddTesting
